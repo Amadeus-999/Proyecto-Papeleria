@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="proyecto.Admin.Function.EditCategoriaPage"
+             Title="Editar Categoria">
+    <StackLayout Padding="20">
+        <Label Text="Nombre de la Categoría" FontAttributes="Bold" />
+        <Entry x:Name="NombreCategoriaEntry" Placeholder="Nombre de la Categoría" Text="{Binding NombreCategoria}" />
+
+        <Label Text="Descripción" FontAttributes="Bold" />
+        <Entry x:Name="DescripcionEntry" Placeholder="Descripción" Text="{Binding Descripcion}" />
+
+        <Button Text="Actualizar" Clicked="OnActualizarCategoriaClicked" BackgroundColor="Orange" TextColor="White" CornerRadius="10" />
+    </StackLayout>
+</ContentPage>

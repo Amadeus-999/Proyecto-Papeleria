@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="proyecto.Admin.Views.GestionPedidosPage"
+             Title="Gestion de Pedidos">
+    <ScrollView>
+        <StackLayout Padding="10">
+            <Button Text="Agregar Pedido" Clicked="OnAgregarPedidoClicked"/>
+
+            <CollectionView x:Name="PedidosCollectionView">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame Padding="10" Margin="5">
+                            <StackLayout>
+                                <Label Text="ID Pedido:" FontAttributes="Bold" />
+                                <Label Text="{Binding IdPedido}" />
+
+                                <Label Text="Fecha de Pedido:" FontAttributes="Bold" />
+                                <Label Text="{Binding FechaPedido, StringFormat='{0:dd/MM/yyyy}'}"/>
+
+                                <Label Text="Estado:" FontAttributes="Bold" />
+                                <Label Text="{Binding Estado}" />
+
+                                <Label Text="Total:" FontAttributes="Bold" />
+                                <Label Text="{Binding Total, StringFormat='Total: {0:C}'}" />
+
+                                <Label Text="Proveedor:" FontAttributes="Bold" />
+                                <Label Text="{Binding Proveedor.NombreProveedor}" FontAttributes="Italic" />
+
+                                <Label Text="Teléfono del Proveedor:" FontAttributes="Bold" />
+                                <Label Text="{Binding Proveedor.Telefono}" />
+
+                                <Label Text="Correo del Proveedor:" FontAttributes="Bold" />
+                                <Label Text="{Binding Proveedor.Correo}" />
+
+                                <Button Text="Ver Detalles" Clicked="OnVerDetallesPedidoClicked" />
+                            </StackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

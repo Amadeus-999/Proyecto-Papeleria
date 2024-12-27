@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="proyecto.Admin.Function.EditProductoPage"
+             Title="Editar Producto">
+            <ScrollView Padding="20">
+                <StackLayout Spacing="15">
+                    <Image Source="{Binding ImagenUri}" WidthRequest="200" HeightRequest="200" Aspect="AspectFill" />
+                    <Label Text="Nombre del Producto" FontAttributes="Bold" />
+                    <Entry Placeholder="Nombre del Producto" Text="{Binding NombreProducto}" />
+                    
+                    <Label Text="Descripción" FontAttributes="Bold" />
+                    <Entry Placeholder="Descripción" Text="{Binding Descripcion}" />
+
+                    <Label Text="Categoría" FontAttributes="Bold" />
+                    <Entry Placeholder="Categoría" Text="{Binding NombreCategoria}" IsEnabled="False" />
+
+                    <Label Text="Precio" FontAttributes="Bold" />
+                    <Entry Placeholder="Precio" Keyboard="Numeric" Text="{Binding Precio}" />
+
+                    <Label Text="Stock" FontAttributes="Bold" />
+                    <Entry Placeholder="Stock" Keyboard="Numeric" Text="{Binding Stock}" />
+
+                    <Label Text="Fecha de Registro" FontAttributes="Bold" />
+                    <DatePicker Date="{Binding FechaRegistro}" />
+
+                    <Button Text="Actualizar" Clicked="OnActualizarProductoClicked" BackgroundColor="#4CAF50" TextColor="White" />
+                </StackLayout>
+            </ScrollView>
+</ContentPage>

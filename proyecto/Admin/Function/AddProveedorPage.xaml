@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="proyecto.Admin.Function.AddProveedorPage"
+             Title="AddProveedorPage">
+    <StackLayout Padding="10">
+        <Label Text="Nombre del Proveedor" FontAttributes="Bold"/>
+        <Entry x:Name="NombreProveedorEntry" Placeholder="Nombre del Proveedor"/>
+
+        <Label Text="Teléfono" FontAttributes="Bold"/>
+        <Entry x:Name="TelefonoEntry" Placeholder="Teléfono" Keyboard="Telephone"/>
+
+        <Label Text="Correo" FontAttributes="Bold"/>
+        <Entry x:Name="CorreoEntry" Placeholder="Correo" Keyboard="Email"/>
+
+        <Label Text="Dirección" FontAttributes="Bold"/>
+        <Entry x:Name="DireccionEntry" Placeholder="Dirección"/>
+
+        <Button Text="Guardar Proveedor" Clicked="OnGuardarProveedorClicked"/>
+    </StackLayout>
+</ContentPage>

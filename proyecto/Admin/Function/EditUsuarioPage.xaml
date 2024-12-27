@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="proyecto.Admin.Function.EditUsuarioPage"
+             Title="Editar Usuario">
+    <StackLayout Padding="10">
+        <Label Text="Nombre" FontAttributes="Bold"/>
+        <Entry x:Name="NombreEntry" Placeholder="Nombre" Text="{Binding Usuario.Nombre}" />
+
+        <Label Text="Apellido" FontAttributes="Bold"/>
+        <Entry x:Name="ApellidoEntry" Placeholder="Apellido" Text="{Binding Usuario.Apellido}" />
+
+        <Label Text="Correo" FontAttributes="Bold"/>
+        <Entry x:Name="CorreoEntry" Placeholder="Correo" Text="{Binding Usuario.Correo}" />
+
+        <Label Text="Contraseña" FontAttributes="Bold"/>
+        <Entry x:Name="ContrasenaEntry" Placeholder="Contraseña" Text="{Binding Usuario.Contrasena}" IsPassword="True"/>
+
+        <Label Text="Rol" FontAttributes="Bold"/>
+        <Picker x:Name="RolPicker" SelectedItem="{Binding Usuario.Rol}">
+            <Picker.Items>
+                <x:String>admin</x:String>
+                <x:String>usuario</x:String>
+            </Picker.Items>
+        </Picker>
+
+        <Button Text="Guardar Cambios" Clicked="OnGuardarCambiosClicked"/>
+    </StackLayout>
+</ContentPage>

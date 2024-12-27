@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="proyecto.Admin.Views.GestionProductosPage"
+             Title="Gestion de Productos">
+
+    <Grid>
+        <!-- Contenido de la página -->
+        <CollectionView x:Name="ProductosCollectionView">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame Padding="10" Margin="5" BorderColor="#e0e0e0" CornerRadius="15" HasShadow="True" BackgroundColor="White">
+                        <Grid ColumnDefinitions="100, *, Auto" RowDefinitions="Auto">
+                            <Image Source="{Binding ImagenUri}" WidthRequest="100" HeightRequest="100" Aspect="AspectFill" Grid.Column="0" Grid.RowSpan="2" />
+                            <StackLayout Grid.Column="1" VerticalOptions="Center" Spacing="5">
+                                <Label Text="{Binding NombreProducto}" FontSize="20" FontAttributes="Bold" TextColor="#333333" />
+                                <Label Text="{Binding Descripcion}" FontSize="14" TextColor="#757575" />
+                                <Entry Placeholder="Categoría" Text="{Binding NombreCategoria}" IsEnabled="False" FontSize="14" TextColor="#5e92f3" />
+                                <StackLayout Orientation="Horizontal" Spacing="15">
+                                    <Label Text="{Binding PrecioFormateado}" FontSize="14" TextColor="#4caf50" FontAttributes="Bold" />
+                                    <Label Text="{Binding StockFormateado}" FontSize="14" TextColor="#ff9800" />
+                                </StackLayout>
+                                <Label Text="{Binding FechaRegistroFormateada, StringFormat='Fecha: {0}'}" FontSize="12" TextColor="#9e9e9e" />
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" Grid.Column="2" VerticalOptions="Center" Spacing="10">
+                                <Button Text="Editar" Clicked="OnEditarProductoClicked" BackgroundColor="#2196f3" TextColor="White" CornerRadius="8" WidthRequest="70" />
+                                <Button Text="Eliminar" Clicked="OnEliminarProductoClicked" BackgroundColor="#f44336" TextColor="White" CornerRadius="8" WidthRequest="70" />
+                            </StackLayout>
+                        </Grid>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <Button Text="Agregar Producto"
+                BackgroundColor="Transparent"
+                TextColor="#2196f3"
+                FontSize="18"
+                HorizontalOptions="End"
+                VerticalOptions="Start"
+                Margin="10"
+                Clicked="OnAgregarProductoClicked" />
+    </Grid>
+
+</ContentPage>

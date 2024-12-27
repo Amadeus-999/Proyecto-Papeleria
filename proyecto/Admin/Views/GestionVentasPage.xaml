@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="proyecto.Admin.Views.GestionVentasPage"
+             Title="Gestion de Ventas">
+    <ScrollView>
+        <StackLayout Padding="10">
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="10">
+                <Button Text="Exportar a CSV" Clicked="OnExportarCsvClicked" />
+            </StackLayout>
+
+            <CollectionView x:Name="VentasCollectionView">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame Padding="10" Margin="5">
+                            <StackLayout>
+                                <Label Text="{Binding IdVenta, StringFormat='Venta ID: {0}'}" FontAttributes="Bold" />
+                                <Label Text="{Binding NombreUsuario, StringFormat='Usuario: {0}'}" />
+                                <Label Text="{Binding FechaVenta, StringFormat='Fecha: {0:dd/MM/yyyy}'}" />
+                                <Label Text="{Binding Total, StringFormat='Total: {0:C}'}" />
+                                <Button Text="Ver Detalles" Clicked="OnVerDetallesVentaClicked" />
+                            </StackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

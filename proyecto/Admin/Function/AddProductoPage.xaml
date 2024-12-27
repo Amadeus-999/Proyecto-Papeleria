@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="proyecto.Admin.Function.AddProductoPage"
+             Title="Agregar Producto">
+    <ScrollView>
+        <StackLayout Padding="20" Spacing="15">
+
+            <Label Text="Nombre del Producto" FontAttributes="Bold" />
+            <Entry Placeholder="Nombre del Producto" Text="{Binding NombreProducto}" />
+
+            <Label Text="Descripción" FontAttributes="Bold" />
+            <Entry Placeholder="Descripción" Text="{Binding Descripcion}" />
+
+            <Label Text="Categoría" FontAttributes="Bold" />
+            <Picker x:Name="CategoriaPicker" Title="Selecciona una categoría" SelectedItem="{Binding CategoriaSeleccionada}" />
+
+            <Label Text="Precio" FontAttributes="Bold" />
+            <Entry Placeholder="Precio" Keyboard="Numeric" Text="{Binding Precio}" />
+
+            <Label Text="Stock" FontAttributes="Bold" />
+            <Entry Placeholder="Stock" Keyboard="Numeric" Text="{Binding Stock}" />
+
+            <Label Text="Fecha de Registro" FontAttributes="Bold" />
+            <DatePicker Date="{Binding FechaRegistro}" />
+
+            <Label Text="URL de la Imagen" FontAttributes="Bold" />
+            <Entry Placeholder="URL de la Imagen" Text="{Binding ImagenUri}" />
+
+            <Button Text="Agregar Producto" Clicked="OnGuardarProductoClicked" BackgroundColor="#4CAF50" TextColor="White" CornerRadius="8" />
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

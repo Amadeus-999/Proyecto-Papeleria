@@ -1,0 +1,167 @@
+is_global = true
+build_property.TargetFramework = net9.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = proyecto
+build_property.ProjectDir = C:\Users\uriel\source\repos\proyecto\proyecto\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTAotOptimizerEnabled = true
+build_property.CsWinRTAotExportsEnabled = 
+build_property.CsWinRTRcwFactoryFallbackGeneratorForceOptIn = 
+build_property.CsWinRTRcwFactoryFallbackGeneratorForceOptOut = 
+build_property.CsWinRTCcwLookupTableGeneratorEnabled = true
+build_property.CsWinRTMergeReferencedActivationFactories = 
+build_property.CsWinRTAotWarningLevel = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/uriel/source/repos/proyecto/proyecto/Admin/AdminDashboardPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = proyecto.Admin.AdminDashboardPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Admin\AdminDashboardPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Admin\AdminDashboardPage.xaml
+
+[C:/Users/uriel/source/repos/proyecto/proyecto/Admin/Function/AddCategoriaPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = proyecto.Admin.Function.AddCategoriaPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Admin\Function\AddCategoriaPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Admin\Function\AddCategoriaPage.xaml
+
+[C:/Users/uriel/source/repos/proyecto/proyecto/Admin/Function/AddPedidoPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = proyecto.Admin.Function.AddPedidoPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Admin\Function\AddPedidoPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Admin\Function\AddPedidoPage.xaml
+
+[C:/Users/uriel/source/repos/proyecto/proyecto/Admin/Function/AddProductoPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = proyecto.Admin.Function.AddProductoPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Admin\Function\AddProductoPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Admin\Function\AddProductoPage.xaml
+
+[C:/Users/uriel/source/repos/proyecto/proyecto/Admin/Function/AddProveedorPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = proyecto.Admin.Function.AddProveedorPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Admin\Function\AddProveedorPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Admin\Function\AddProveedorPage.xaml
+
+[C:/Users/uriel/source/repos/proyecto/proyecto/Admin/Function/AddUsuarioPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = proyecto.Admin.Function.AddUsuarioPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Admin\Function\AddUsuarioPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Admin\Function\AddUsuarioPage.xaml
+
+[C:/Users/uriel/source/repos/proyecto/proyecto/Admin/Function/EditCategoriaPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = proyecto.Admin.Function.EditCategoriaPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Admin\Function\EditCategoriaPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Admin\Function\EditCategoriaPage.xaml
+
+[C:/Users/uriel/source/repos/proyecto/proyecto/Admin/Function/EditProductoPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = proyecto.Admin.Function.EditProductoPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Admin\Function\EditProductoPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Admin\Function\EditProductoPage.xaml
+
+[C:/Users/uriel/source/repos/proyecto/proyecto/Admin/Function/EditProveedorPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = proyecto.Admin.Function.EditProveedorPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Admin\Function\EditProveedorPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Admin\Function\EditProveedorPage.xaml
+
+[C:/Users/uriel/source/repos/proyecto/proyecto/Admin/Function/EditUsuarioPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = proyecto.Admin.Function.EditUsuarioPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Admin\Function\EditUsuarioPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Admin\Function\EditUsuarioPage.xaml
+
+[C:/Users/uriel/source/repos/proyecto/proyecto/Admin/Views/DashboardPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = proyecto.Admin.Views.DashboardPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Admin\Views\DashboardPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Admin\Views\DashboardPage.xaml
+
+[C:/Users/uriel/source/repos/proyecto/proyecto/Admin/Views/DetalleVentaPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = proyecto.Admin.Views.DetalleVentaPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Admin\Views\DetalleVentaPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Admin\Views\DetalleVentaPage.xaml
+
+[C:/Users/uriel/source/repos/proyecto/proyecto/Admin/Views/GestionCategoriasPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = proyecto.Admin.Views.GestionCategoriasPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Admin\Views\GestionCategoriasPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Admin\Views\GestionCategoriasPage.xaml
+
+[C:/Users/uriel/source/repos/proyecto/proyecto/Admin/Views/GestionPedidosPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = proyecto.Admin.Views.GestionPedidosPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Admin\Views\GestionPedidosPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Admin\Views\GestionPedidosPage.xaml
+
+[C:/Users/uriel/source/repos/proyecto/proyecto/Admin/Views/GestionProductosPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = proyecto.Admin.Views.GestionProductosPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Admin\Views\GestionProductosPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Admin\Views\GestionProductosPage.xaml
+
+[C:/Users/uriel/source/repos/proyecto/proyecto/Admin/Views/GestionProveedoresPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = proyecto.Admin.Views.GestionProveedoresPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Admin\Views\GestionProveedoresPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Admin\Views\GestionProveedoresPage.xaml
+
+[C:/Users/uriel/source/repos/proyecto/proyecto/Admin/Views/GestionUsuariosPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = proyecto.Admin.Views.GestionUsuariosPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Admin\Views\GestionUsuariosPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Admin\Views\GestionUsuariosPage.xaml
+
+[C:/Users/uriel/source/repos/proyecto/proyecto/Admin/Views/GestionVentasPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = proyecto.Admin.Views.GestionVentasPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Admin\Views\GestionVentasPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Admin\Views\GestionVentasPage.xaml
+
+[C:/Users/uriel/source/repos/proyecto/proyecto/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = proyecto.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/uriel/source/repos/proyecto/proyecto/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = proyecto.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/uriel/source/repos/proyecto/proyecto/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = proyecto.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/uriel/source/repos/proyecto/proyecto/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = proyecto.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/uriel/source/repos/proyecto/proyecto/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = proyecto.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/uriel/source/repos/proyecto/proyecto/User/CatalogPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = proyecto.User.CatalogPage.xaml
+build_metadata.AdditionalFiles.TargetPath = User\CatalogPage.xaml
+build_metadata.AdditionalFiles.RelativePath = User\CatalogPage.xaml
